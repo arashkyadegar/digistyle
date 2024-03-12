@@ -18,7 +18,7 @@
 
 body {
 direction: rtl;
-
+color:gray;
 }
 
 @layer utilities {
