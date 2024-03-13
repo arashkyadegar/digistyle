@@ -15,14 +15,51 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@font-face {
+  font-family: iransSans;
+  src: url("../fonts/woff/IRANSansX-Regular.woff") format("truetype");
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+}
 
 body {
-direction: rtl;
-color:gray;
+  background-color: #EEEEEE;
+  color:#515151;
+  direction: rtl;
+font-family: iransSans;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.SwiperSlide {
+  z-index: 1 !important;
+  position :absolute !important;
+
+}
+
+ .swiper-button-next {
+  width: 40px!important;
+  border:solid thin red!important;
+  z-index: 60 !important;
+  /* background-image: url('../public/icons8-back-arrow-50.png') !important;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.swiper-button-prev {
+  width: 40px!important;
+  border:solid thin red!important;
+  z-index: 60 !important;
+  /* background-image: url('../public/icons8-next-arrow-50.png') !important;
+  background-repeat: no-repeat;
+  background-position: center; */
 }
