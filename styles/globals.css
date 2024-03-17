@@ -47,19 +47,13 @@ font-family: iransSans;
 
 }
 
- .swiper-button-next {
-  width: 40px!important;
-  border:solid thin red!important;
-  z-index: 60 !important;
-  /* background-image: url('../public/icons8-back-arrow-50.png') !important;
-  background-repeat: no-repeat;
-  background-position: center; */
-}
+.swiper-button-next,
 .swiper-button-prev {
-  width: 40px!important;
-  border:solid thin red!important;
-  z-index: 60 !important;
-  /* background-image: url('../public/icons8-next-arrow-50.png') !important;
-  background-repeat: no-repeat;
-  background-position: center; */
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    right:10px;
+    padding: 30px;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
 }

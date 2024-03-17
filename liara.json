@@ -1,8 +1,8 @@
 {
      "port":3000,
      "disks":[{
-          "name":"public/images",
-          "mountTo":"public/images"
+          "name":"public",
+          "mountTo":"public"
      }],
 
      "app":"nextjs-lopencandy"
